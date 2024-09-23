@@ -80,7 +80,7 @@ transition: .4s;
    color: #6f5e4e;
 }
 
-.main__nav h2{
+.main__titulo h2{
     text-align: center;
     color: #7c5e45;
     font-size: 30px;
@@ -120,7 +120,7 @@ transition: .4s;
     padding: 20px;
 }
 
-.footer__redes{
+.redes{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -149,4 +149,20 @@ transition: .4s;
 .footer__copy a{
     color: rgb(0, 4, 255);
     margin-left: 3px;
+}
+
+
+
+/*---------CONTACTO--------------------------*/
+
+.redes__contacto .redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes__contacto .redes a{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
 }
