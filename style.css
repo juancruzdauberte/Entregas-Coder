@@ -166,3 +166,29 @@ transition: .4s;
     text-decoration: none;
     color: black;
 }
+
+.form input{
+    width: 70%;
+}
+
+.form-textarea{
+    resize: none;
+    width: 70%;
+}
+
+.titulo__form-redes{
+    font-size: 30px;
+    color: #c6af99;
+    margin-bottom: 30px;
+}
+
+.form-button{
+    background-color: rgb(100, 104, 104);
+    border: none;
+}
+
+.form-button:hover{
+    background-color: rgb(129, 134, 134);
+    border: none;
+    transition: .3s;
+}
