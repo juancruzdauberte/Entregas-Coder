@@ -1,0 +1,49 @@
+ /*--------------------FOOTER-----------------------------------------------------*/
+    
+ .footer__redes-nav{
+    background-color: rgb(242, 231, 231);
+}
+
+
+.footer__redes-nav h4{
+    text-align: center;
+    color:#7c5e45;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer__copy{
+    text-align: center;
+    background-color: #E6D1BE;
+    padding: 20px;
+}
+
+.footer__nav .nav__class li{
+    font-size: 0.9em;
+}
+
+.footer__nav ul li a:hover{
+    transition: .4s;
+    font-size: 17px;
+    color: black;
+}
+
+.footer__copy p{
+    font-weight: 600;
+}
+
+.footer__copy a{
+    color: rgb(0, 4, 255);
+    margin-left: 3px;
+}
+
+
+
+
+

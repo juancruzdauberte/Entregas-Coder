@@ -1,0 +1,61 @@
+/*--------------------HEADER-----------------------------------------------------*/
+#header{
+    background-color: rgb(242, 231, 231);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px;
+}
+
+
+
+nav h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #7c5e45;
+    margin-bottom: 30px;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 100px;
+}
+
+.logo{
+    align-content: center;
+}
+
+.carrito{
+    align-content: center;
+}
+
+.carrito img:hover{
+width: 45px;
+transition: .4s;
+
+}
+
+.carrito button{
+    background-color: rgb(242, 231, 231);
+    border: 0;
+}
+
+.carrito img{
+    width: 40px;
+}
+
+.nav__class a{
+    color: black;    
+}
+
+.nav__class li a:hover{
+    transition: .1s;
+    color: rgb(175, 155, 155);
+}
+
+
+
+
+
+
+
