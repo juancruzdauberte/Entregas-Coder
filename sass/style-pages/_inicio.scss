@@ -1,0 +1,38 @@
+.main__categorias{
+
+    background-color: rgb(248, 247, 247);
+    margin: 0px 10px 0px;
+
+    h3{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    
+    .main__categorias-btn{
+        background-color: rgba(127, 130, 130, 0.211);
+        border: 0;
+        color: black;
+    }
+
+    .main__categorias-btn:hover{
+        background-color: rgba(140, 134, 134, 0.749);
+        color: white;
+        transition: .4s;
+    }
+
+    .main__video{
+        .main__video-bgr{
+            background-color: rgba(214, 219, 219, 0.196);
+        }
+
+        video{
+            height: 600px;
+            width: auto;
+            border-radius: 10px;
+            
+        }
+    }
+    
+}
+

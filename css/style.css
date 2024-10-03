@@ -1,33 +1,6 @@
 /*IMPORTS RESET*/
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Nunito", sans-serif;
-}
-
-body, main {
-  min-height: 100vh;
-}
-
 /*--------------------HEADER-----------------------------------------------------*/
 /*----------------------MAIN--------------------------------------*/
-.main__img img {
-  width: 100%;
-  object-fit: cover;
-  height: 500px;
-}
-
-.main__nav-item a {
-  color: #6f5e4e;
-}
-
-.main__titulo h2 {
-  text-align: center;
-  color: #7c5e45;
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .main__categorias {
   background-color: rgb(248, 247, 247);
   margin: 0px 10px 0px;
@@ -271,6 +244,61 @@ nav h1 {
   margin-left: 3px;
 }
 
+.main__img img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.main__nav-item a {
+  color: #6f5e4e;
+}
+
+.main__titulo h2 {
+  text-align: center;
+  color: #7c5e45;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main__categorias {
+  background-color: rgb(248, 247, 247);
+  margin: 0px 10px 0px;
+}
+.main__categorias h3 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.main__categorias .main__categorias-btn {
+  background-color: rgba(127, 130, 130, 0.211);
+  border: 0;
+  color: black;
+}
+.main__categorias .main__categorias-btn:hover {
+  background-color: rgba(140, 134, 134, 0.749);
+  color: white;
+  transition: 0.4s;
+}
+.main__categorias .main__video .main__video-bgr {
+  background-color: rgba(214, 219, 219, 0.196);
+}
+.main__categorias .main__video video {
+  height: 600px;
+  width: auto;
+  border-radius: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body, main {
+  min-height: 100vh;
+}
+
 #header {
   background-color: rgb(242, 231, 231);
   display: flex;
@@ -344,6 +372,21 @@ nav h1 {
   #header .nav__hd-ft a {
     color: black;
   }
+}
+
+#main .main__img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+#main .main__nav .main__nav-item a {
+  color: #6f5e4e;
+}
+#main .main__titulo h2 {
+  color: #7c5e45;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 #footer .footer__redes-nav {

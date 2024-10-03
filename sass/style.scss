@@ -5,9 +5,27 @@
 @import "main-style/reset";
 @import "main-style/header";
 @import "main-style/footer";
+@import"main-style/main";
 @import "main-style/variables";
+@import"style-pages/inicio";
+@import"style-pages/contacto";
+@import"style-pages/productos";
+@import"style-pages/imagenes";
+@import"style-pages/quienesSomos";
 
 
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+
+    }
+    
+    body, main{
+        min-height: 100vh;
+    }
+    
 
 #header{
     background-color: $bg-header-footer;
@@ -26,13 +44,13 @@
     
     .nav__hd-ft{
 
-    a{
-       color: black;    
-     }
-    li a:hover{
-        transition: .1s;
-        color: rgb(175, 155, 155);
-    }
+        a{
+        color: black;    
+        }
+        li a:hover{
+            transition: .1s;
+            color: rgb(175, 155, 155);
+        }
     }
 
 .carrito{        
@@ -58,7 +76,7 @@
         text-align: center;
         font-size: 50px;
         font-weight: 600;
-        color: #7c5e45;
+        color: $color-h1;
         margin-bottom: 30px;
     }
       
@@ -110,6 +128,32 @@
         
     }
               
+}
+
+
+#main{
+    .main__img{
+        width: 100%;
+        object-fit: cover;
+        height: 500px;
+    }
+
+    .main__nav{
+        .main__nav-item{
+            a{
+                color: $color-main__nav-a;
+            }
+        }
+    }
+
+    .main__titulo{
+        h2{
+            color: $color-h2;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
 }
 
 
